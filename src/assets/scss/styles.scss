@@ -1,0 +1,294 @@
+/* ============================== */
+/*  TAILWIND
+/* ============================== */
+
+/* ========================================================================================== */
+/*  In order to mute "Unknown at rule" warnings, you have to set your editor's CSS/SCSS
+/*  linting settings to ignore them. You can do this in VS Code by going to "Settings",
+/*  searching for "unknownAtRules", and changing "warning" to "ignore" in the dropdown.
+/* ========================================================================================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+    section {
+        @screen md-max {
+            @apply py-4;
+        }
+        @screen lg {
+            @apply py-8;
+        }
+    }
+
+    footer {
+        @apply pb-4;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        @apply mb-2;
+    }
+
+    h1 {
+        @apply sm-max:text-28 md:text-36;
+    }
+
+    h2 {
+        @apply sm-max:text-24 md:text-28;
+    }
+
+    h3 {
+        @apply sm-max:text-20 md:text-24;
+    }
+
+    h4 {
+        @apply text-18;
+    }
+
+    h5 {
+        @apply text-16;
+    }
+
+    h6 {
+        @apply text-14;
+    }
+
+    a {
+        @apply inline-block;
+
+        &:not(.btn) {
+            @apply underline underline-offset-1;
+        }
+    }
+
+    p,
+    ul,
+    ol {
+        @apply text-18;
+    }
+
+    p {
+        &:last-of-type {
+            @apply mb-0;
+        }
+
+        a {
+            @apply text-blue-600;
+        }
+    }
+
+    ul,
+    ol {
+        @apply mb-3 pl-3;
+
+        li {
+            @apply mb-1;
+
+            &:last-of-type {
+                @apply mb-0;
+            }
+        }
+    }
+
+    ul {
+        @apply list-disc;
+
+        & + ol {
+            &:last-of-type {
+                @apply mb-0;
+            }
+        }
+    }
+
+    ol {
+        @apply list-decimal;
+
+        & + ul {
+            &:last-of-type {
+                @apply mb-0;
+            }
+        }
+    }
+
+    input[type='text'],
+    select,
+    textarea {
+        @apply mb-1 block w-full border-gray-400 rounded;
+    }
+
+    input[type='checkbox'],
+    input[type='radio'] {
+        & + label {
+            @apply ml-1;
+        }
+    }
+
+    input[type='checkbox'] {
+        @apply rounded;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply text-18;
+
+        &:not([class*='btn-link']) {
+            @apply xs-max:block sm:inline-block;
+        }
+
+        &-group {
+            .btn {
+                &:not(:first-of-type) {
+                    @apply xs-max:mt-1 sm:ml-1;
+                }
+            }
+        }
+
+        &-primary,
+        &-secondary,
+        &-tertiary,
+        &-primary-outline,
+        &-secondary-outline,
+        &-tertiary-outline {
+            @apply py-1 px-2 text-center border rounded transition-all duration-300;
+        }
+
+        &-primary {
+            @apply bg-red-600 text-white border-red-600;
+
+            &:hover {
+                @apply bg-red-500 border-red-500;
+            }
+
+            &:active {
+                @apply bg-red-700 border-red-700;
+            }
+
+            &-outline {
+                @apply bg-transparent text-red-600 border-red-600;
+
+                &:hover {
+                    @apply bg-red-600 text-white border-red-600;
+                }
+
+                &:active {
+                    @apply bg-red-700 border-red-700;
+                }
+            }
+        }
+
+        &-secondary {
+            @apply bg-blue-600 text-white border-blue-600;
+
+            &:hover {
+                @apply bg-blue-500 border-blue-500;
+            }
+
+            &:active {
+                @apply bg-blue-700 border-blue-700;
+            }
+
+            &-outline {
+                @apply bg-transparent text-blue-600 border-blue-600;
+
+                &:hover {
+                    @apply bg-blue-600 text-white border-blue-600;
+                }
+
+                &:active {
+                    @apply bg-blue-700 border-blue-700;
+                }
+            }
+        }
+
+        &-tertiary {
+            @apply bg-gray-300 border-gray-300;
+
+            &:hover {
+                @apply bg-gray-200 border-gray-200;
+            }
+
+            &:active {
+                @apply bg-gray-400 border-gray-400;
+            }
+
+            &-outline {
+                @apply bg-transparent text-black border-gray-300;
+
+                &:hover {
+                    @apply bg-gray-300 border-gray-300;
+                }
+
+                &:active {
+                    @apply bg-gray-400 border-gray-400;
+                }
+            }
+        }
+
+        &-link {
+            &::after {
+                @apply relative text-24 transition-all duration-300;
+
+                content: "›";
+                top: 1px;
+                left: 5px;
+            }
+
+            &:hover {
+                &::after {
+                    @apply left-1;
+                }
+            }
+
+            &-reverse {
+                margin-left: 5px;
+
+                &::before {
+                    @apply relative text-24 transition-all duration-300;
+
+                    content: "‹";
+                    top: 1px;
+                    right: 5px;
+                }
+
+                &:hover {
+                    &::before {
+                        @apply right-1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Extend pre-existing utility classes
+@layer utilities {
+    .container {
+        @apply mx-auto;
+
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .list {
+        &-none {
+            @apply mb-0 pl-0;
+
+            li {
+                @apply mb-0;
+            }
+        }
+    }
+}
+
+@layer variants {
+
+}
