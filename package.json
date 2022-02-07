@@ -13,7 +13,7 @@
         "@supabase/supabase-js": "^1.29.4",
         "@tailwindcss/forms": "^0.4.0",
         "autoprefixer": "^10.4.2",
-        "nuxt3": "^3.0.0-27398533.8edd481",
+        "nuxt3": "^3.0.0-27404037.29171bd",
         "postcss": "^8.4.5",
         "sass": "^1.49.0",
         "tailwind-config-viewer": "^1.6.3",
