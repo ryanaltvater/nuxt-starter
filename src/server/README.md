@@ -1,7 +1,11 @@
-# SERVER
+# `server/`
 
-**This directory is not required, you can delete it if you don't want to use it.**
+Nuxt automatically scans files inside the directories listed below, to register API and server handlers with HMR support.
 
-The server directory is used to create any backend logic for your Nuxt application. It supports HMR and powerful features.
+```bash
+~/server/api
+~/server/routes
+~/server/middleware
+```
 
-More information about the usage of this directory in [the documentation](https://v3.nuxtjs.org/docs/directory-structure/server).
+Additional information about the usage of this directory can be found [here](https://nuxt.com/docs/guide/directory-structure/server).

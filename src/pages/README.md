@@ -1,5 +1,5 @@
-# PAGES
+# `pages/`
 
-The `pages/` directory is optional, meaning that if you only use `app.vue`ß, vue-router won't be included, reducing your application bundle size.
+Nuxt provides a file-based routing to create routes within your web application using [Vue Router](https://router.vuejs.org) under the hood.
 
-More information about the usage of this directory in [the documentation](https://v3.nuxtjs.org/docs/directory-structure/pages).
+Additional information about the usage of this directory can be found [here](https://nuxt.com/docs/guide/directory-structure/pages).

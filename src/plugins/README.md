@@ -1,7 +1,5 @@
-# PLUGINS
+# `plugins/`
 
-**This directory is not required, you can delete it if you don't want to use it.**
+Nuxt automatically reads the files in your `plugins` directory and loads them at the creation of the Vue application. You can use `.server` or `.client` suffix in the file name to load a plugin only on the server or client side.
 
-Nuxt will automatically read the files in your `plugins/` directory and load them. You can use `.server` or `.client` in the file name to load a plugin just on server- or client-side.
-
-More information about the usage of this directory in [the documentation](https://v3.nuxtjs.org/docs/directory-structure/plugins).
+Additional information about the usage of this directory can be found [here](https://nuxt.com/docs/guide/directory-structure/plugins).
