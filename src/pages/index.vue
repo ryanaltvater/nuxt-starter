@@ -1,4 +1,16 @@
 <template>
+    <Head>
+        <Title>Home</Title>
+
+        <Meta name="description" content="Home description" />
+        <Meta name="keywords" content="Home keywords" />
+        <Meta property="og:type" content="Home type" />
+        <Meta property="og:title" content="Home title" />
+        <Meta property="og:description" content="Home description" />
+        <Meta property="og:image" content="Home image" />
+        <Meta property="og:url" content="Home url" />
+    </Head>
+
     <Header />
 
     <section>
@@ -23,9 +35,13 @@
                 <div class="sm-max:col-span-4 md:col-span-3">
                     <h3 class="text-red-600">Paragraph</h3>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <a href="#">veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est <a href="#">laborum</a>.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <a href="#">veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est <a href="#">laborum</a>.
+                    </p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <a href="#">veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <a href="#">veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
                 </div>
 
                 <div class="col-span-4">
@@ -55,11 +71,11 @@
 
                     <form>
                         <div>
-                            <input class="p-1" type="text" placeholder="First name">
+                            <input class="p-1" type="text" placeholder="First name" />
                         </div>
 
                         <div>
-                            <input class="p-1" type="text" placeholder="Last name">
+                            <input class="p-1" type="text" placeholder="Last name" />
                         </div>
 
                         <div>
@@ -75,34 +91,40 @@
                         <div class="grid grid-cols-2 gap-3">
                             <div class="col-span-1">
                                 <div class="flex items-center">
-                                    <input id="checkbox1" type="checkbox" name="checkboxes">
+                                    <input id="checkbox1" type="checkbox" name="checkboxes" />
+
                                     <label for="checkbox1">Option 1</label>
                                 </div>
 
                                 <div class="flex items-center">
-                                    <input id="checkbox2" type="checkbox" name="checkboxes">
+                                    <input id="checkbox2" type="checkbox" name="checkboxes" />
+
                                     <label for="checkbox2">Option 2</label>
                                 </div>
 
                                 <div class="flex items-center">
-                                    <input id="checkbox3" type="checkbox" name="checkboxes">
+                                    <input id="checkbox3" type="checkbox" name="checkboxes" />
+
                                     <label for="checkbox3">Option 3</label>
                                 </div>
                             </div>
 
                             <div class="col-span-1">
                                 <div class="flex items-center">
-                                    <input id="radio1" type="radio" name="radios">
+                                    <input id="radio1" type="radio" name="radios" />
+
                                     <label for="radio1">Option 1</label>
                                 </div>
 
                                 <div class="flex items-center">
-                                    <input id="radio2" type="radio" name="radios">
+                                    <input id="radio2" type="radio" name="radios" />
+
                                     <label for="radio2">Option 2</label>
                                 </div>
 
                                 <div class="flex items-center">
-                                    <input id="radio3" type="radio" name="radios">
+                                    <input id="radio3" type="radio" name="radios" />
+
                                     <label for="radio3">Option 3</label>
                                 </div>
                             </div>
@@ -114,25 +136,41 @@
                     <h3 class="text-red-600">Buttons</h3>
 
                     <div class="btn-group">
-                        <a class="btn btn-primary" href="#">Primary</a>
+                        <a class="btn btn-primary" href="#">
+                            Primary
+                        </a>
 
-                        <a class="btn btn-secondary" href="#">Secondary</a>
+                        <a class="btn btn-secondary" href="#">
+                            Secondary
+                        </a>
 
-                        <a class="btn btn-tertiary" href="#">Tertiary</a>
+                        <a class="btn btn-tertiary" href="#">
+                            Tertiary
+                        </a>
                     </div>
 
                     <div class="btn-group mt-3">
-                        <a class="btn btn-primary-outline" href="#">Primary</a>
+                        <a class="btn btn-primary-outline" href="#">
+                            Primary
+                        </a>
 
-                        <a class="btn btn-secondary-outline" href="#">Secondary</a>
+                        <a class="btn btn-secondary-outline" href="#">
+                            Secondary
+                        </a>
 
-                        <a class="btn btn-tertiary-outline" href="#">Tertiary</a>
+                        <a class="btn btn-tertiary-outline" href="#">
+                            Tertiary
+                        </a>
                     </div>
 
                     <div class="btn-group mt-3 xs-max:text-center">
-                        <a class="btn btn-link-reverse" href="#">Prev</a>
+                        <a class="btn btn-link-reverse" href="#">
+                            Prev
+                        </a>
 
-                        <a class="btn btn-link ml-2 pl-2 border-l border-black" href="#">Next</a>
+                        <a class="btn btn-link ml-2 border-l border-black pl-2" href="#">
+                            Next
+                        </a>
                     </div>
                 </div>
             </div>
@@ -140,17 +178,4 @@
     </section>
 
     <Footer />
-</template>
-
-<script>
-export default {
-    setup() {
-        useMeta({
-            title: 'Home Pages',
-            bodyAttrs: {
-                class: ''
-            }
-        })
-    }
-};
-</script>
+</template>;

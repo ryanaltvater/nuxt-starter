@@ -1,4 +1,16 @@
 <template>
+    <Head>
+        <Title>Careers</Title>
+
+        <Meta name="description" content="Careers description" />
+        <Meta name="keywords" content="Careers keywords" />
+        <Meta property="og:type" content="Careers type" />
+        <Meta property="og:title" content="Careers title" />
+        <Meta property="og:description" content="Careers description" />
+        <Meta property="og:image" content="Careers image" />
+        <Meta property="og:url" content="Careers url" />
+    </Head>
+
     <Header />
 
     <section>
@@ -10,4 +22,4 @@
     </section>
 
     <Footer />
-</template>
+</template>;

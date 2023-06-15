@@ -1,4 +1,16 @@
 <template>
+    <Head>
+        <Title>Terms and conditions</Title>
+
+        <Meta name="description" content="Terms and conditions description" />
+        <Meta name="keywords" content="Terms and conditions keywords" />
+        <Meta property="og:type" content="Terms and conditions type" />
+        <Meta property="og:title" content="Terms and conditions title" />
+        <Meta property="og:description" content="Terms and conditions description" />
+        <Meta property="og:image" content="Terms and conditions image" />
+        <Meta property="og:url" content="Terms and conditions url" />
+    </Head>
+
     <Header />
 
     <section>
@@ -10,4 +22,4 @@
     </section>
 
     <Footer />
-</template>
+</template>;

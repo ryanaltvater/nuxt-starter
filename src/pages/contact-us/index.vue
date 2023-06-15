@@ -1,4 +1,16 @@
 <template>
+    <Head>
+        <Title>Contact us</Title>
+
+        <Meta name="description" content="Contact us description" />
+        <Meta name="keywords" content="Contact us keywords" />
+        <Meta property="og:type" content="Contact us type" />
+        <Meta property="og:title" content="Contact us title" />
+        <Meta property="og:description" content="Contact us description" />
+        <Meta property="og:image" content="Contact us image" />
+        <Meta property="og:url" content="Contact us url" />
+    </Head>
+
     <Header />
 
     <section>
@@ -10,4 +22,4 @@
     </section>
 
     <Footer />
-</template>
+</template>;

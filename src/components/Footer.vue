@@ -4,9 +4,9 @@
     </div>
 
     <footer>
-        <div class="py-4 bg-gray-100">
+        <div class="bg-gray-100 py-4">
             <div class="container">
-                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                     <div>
                         <h4 class="font-bold">Primary links</h4>
 
@@ -92,16 +92,16 @@
             </div>
 
             <nav>
-                <ul class="mb-0 pl-0 flex md-max:justify-center list-none">
+                <ul class="mb-0 flex list-none pl-0 md-max:justify-center">
                     <li class="mb-0">
                         <a href="/terms-and-conditions">Terms & conditions</a>
                     </li>
 
-                    <li class="mb-0 ml-2 pl-2 border-l border-black">
+                    <li class="mb-0 ml-2 border-l border-black pl-2">
                         <a href="/privacy-policy">Privacy policy</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </footer>
-</template>
+</template>;

@@ -1,4 +1,16 @@
 <template>
+    <Head>
+        <Title>Privacy policy</Title>
+
+        <Meta name="description" content="Privacy policy description" />
+        <Meta name="keywords" content="Privacy policy keywords" />
+        <Meta property="og:type" content="Privacy policy type" />
+        <Meta property="og:title" content="Privacy policy title" />
+        <Meta property="og:description" content="Privacy policy description" />
+        <Meta property="og:image" content="Privacy policy image" />
+        <Meta property="og:url" content="Privacy policy url" />
+    </Head>
+
     <Header />
 
     <section>
@@ -10,4 +22,4 @@
     </section>
 
     <Footer />
-</template>
+</template>;

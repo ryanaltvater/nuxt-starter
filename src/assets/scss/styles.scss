@@ -1,12 +1,11 @@
-/* ============================== */
-/*  TAILWIND
-/* ============================== */
-
-/* ========================================================================================== */
-/*  In order to mute "Unknown at rule" warnings, you have to set your editor's CSS/SCSS
-/*  linting settings to ignore them. You can do this in VS Code by going to "Settings",
-/*  searching for "unknownAtRules", and changing "warning" to "ignore" in the dropdown.
-/* ========================================================================================== */
+// ========================================================================== //
+//  TAILWIND
+// --------------------------------------------------------------------------
+//  In order to mute "Unknown at rule" warnings, you have to set your
+//  editor's CSS/SCSS linting settings to ignore them. You can do this in
+//  VS Code by going to "Settings", searching for "unknownAtRules", and
+//  changing "warning" to "ignore" in the dropdown.
+// ========================================================================== //
 
 @tailwind base;
 @tailwind components;
@@ -122,6 +121,8 @@
     select,
     textarea {
         @apply mb-1 block w-full border-gray-400 rounded;
+
+        padding: 11px;
     }
 
     input[type='checkbox'],
@@ -133,6 +134,10 @@
 
     input[type='checkbox'] {
         @apply rounded;
+    }
+
+    select {
+        @apply pr-4;
     }
 }
 
@@ -289,6 +294,7 @@
     }
 }
 
+//
 @layer variants {
 
 }
