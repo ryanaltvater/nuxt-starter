@@ -4,10 +4,8 @@
         meta: [
             { name: 'description', content: '' },
             { name: 'keywords', content: '' },
-            { property: 'og:type', content: '' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
-            { property: 'og:image', content: '' },
             { property: 'og:url', content: '' }
         ],
         bodyAttrs: { class: '' }
