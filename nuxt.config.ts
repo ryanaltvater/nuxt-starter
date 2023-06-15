@@ -2,39 +2,32 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            // title: 'Global title',
+            titleTemplate: '%s - Site title',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-                { name: 'description', content: 'Global description' },
-                { name: 'keywords', content: 'Global keywords' },
-                { name: 'author', content: 'Global author' },
-                { name: 'copyright', content: 'Global copyright' },
-                { property: 'og:locale', content: 'en_US' },
-                { property: 'og:type', content: 'Global type' },
-                { property: 'og:title', content: 'Global title' },
-                { property: 'og:description', content: 'Global description' },
-                { property: 'og:image', content: 'Global image' },
-                { property: 'og:url', content: 'Global url' },
+                { name: 'author', content: 'Site author' },
+                { name: 'copyright', content: 'Site copyright' },
+                { property: 'og:locale', content: 'en_US' }
             ],
             link: [
-                // { rel: 'stylesheet', href: '', crossorigin: '' },
+                // { rel: 'stylesheet', href: '', crossorigin: '' }
             ],
             script: [
                 { src: 'https://code.jquery.com/jquery-3.6.0.min.js', tagPosition: 'head' },
-                // { src: '/assets/js/scripts.js', tagPosition: 'bodyClose' },
+                // { src: '/assets/js/scripts.js', tagPosition: 'bodyClose' }
             ],
-            bodyAttrs: { class: '' },
-        },
+            bodyAttrs: { class: '' }
+        }
     },
     css: [ '@/assets/scss/styles.scss' ],
     postcss: {
         plugins: {
             autoprefixer: {},
             tailwindcss: {},
-            'tailwindcss/nesting': {},
-        },
+            'tailwindcss/nesting': {}
+        }
     },
     srcDir: 'src/',
-    ssr: false,
+    ssr: false
 });

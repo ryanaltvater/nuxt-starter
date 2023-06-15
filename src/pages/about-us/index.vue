@@ -1,16 +1,20 @@
+<script setup>
+    useHead({
+        title: 'About us',
+        meta: [
+            { name: 'description', content: '' },
+            { name: 'keywords', content: '' },
+            { property: 'og:type', content: '' },
+            { property: 'og:title', content: '' },
+            { property: 'og:description', content: '' },
+            { property: 'og:image', content: '' },
+            { property: 'og:url', content: '' }
+        ],
+        bodyAttrs: { class: '' }
+    })
+</script>
+
 <template>
-    <Head>
-        <Title>About us</Title>
-
-        <Meta name="description" content="About us description" />
-        <Meta name="keywords" content="About us keywords" />
-        <Meta property="og:type" content="About us type" />
-        <Meta property="og:title" content="About us title" />
-        <Meta property="og:description" content="About us description" />
-        <Meta property="og:image" content="About us image" />
-        <Meta property="og:url" content="About us url" />
-    </Head>
-
     <Header />
 
     <section>
