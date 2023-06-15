@@ -1,29 +1,10 @@
 ## Custom
-
-*.sublime-*
-.vagrant/
-.vscode/
+.env
+.output/
+.nuxt/
 _design/
-dev/
-dist/
-docs/
-images/
-img/
-public/
-temp/
-video/
-/index.html
 
-
-## Nuxt
-
-.nuxt
-.output
-nuxt.d.ts
-
-
-## Node.js
-
+## NodeJS
 *.log
 *.pid
 *.seed
@@ -36,21 +17,15 @@ node_modules
 npm-debug.log
 pids
 
-
 ## Bower
-
 bower
 bower_components
 
-
-## CSS/SCSS
-
+## CSS/Sass
 *.css.map
 .sass-cache
 
-
 ## macOS
-
 ._*
 .apdisk
 .AppleDB
@@ -64,9 +39,7 @@ Icon
 Network Trash Folder
 Temporary Items
 
-
 ## Windows
-
 *.cab
 *.msi
 *.msm
