@@ -11,6 +11,7 @@ export default defineNuxtConfig({
                 { property: 'og:locale', content: 'en_US' }
             ],
             link: [
+                { rel: 'icon', href: 'favicon.ico' },
                 // { rel: 'stylesheet', href: '', crossorigin: '' }
             ],
             script: [
