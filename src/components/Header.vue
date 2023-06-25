@@ -3,7 +3,7 @@
         <div class="container pt-2 md:flex md:items-center md:justify-between">
             <div class="sm-max:text-center">
                 <a href="/" title="INSERT TEXT">
-                    <img src="//via.placeholder.com/180x60?text=Logo" alt="Logo" />
+                    <img class="h-6" src="~/assets/img/logo.png" alt="Logo">
                 </a>
             </div>
 
