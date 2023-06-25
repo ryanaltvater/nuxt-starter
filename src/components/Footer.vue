@@ -88,7 +88,7 @@
 
         <div class="container pt-4 md:flex md:justify-between">
             <div class="md-max:text-center">
-                <p class="sm-max:mb-1">&copy; 2022 Company. All rights reserved.</p>
+                <p class="sm-max:mb-1">&copy; {{ new Date().getFullYear() }} Company. All rights reserved.</p>
             </div>
 
             <nav>
