@@ -16,14 +16,15 @@ export default defineNuxtConfig({
                 { rel: 'icon', href: 'favicon.ico' },
                 // { rel: 'stylesheet', href: '', crossorigin: '' }
             ],
-            script: [
-                // { src: 'https://code.jquery.com/jquery-3.6.0.min.js', tagPosition: 'head' },
-                { src: 'assets/js/scripts.js', tagPosition: 'bodyClose' }
-            ],
+            // script: [
+            //     { src: 'https://code.jquery.com/jquery-3.6.0.min.js', tagPosition: 'head' },
+            //     { src: 'assets/js/supabase.js', tagPosition: 'bodyClose' },
+            //     { src: 'assets/js/scripts.js', tagPosition: 'bodyClose' }
+            // ],
             bodyAttrs: { class: '' }
         }
     },
-    css: [ '@/assets/scss/styles.scss' ],
+    css: [ 'assets/scss/styles.scss' ],
     postcss: {
         plugins: {
             autoprefixer: {},
